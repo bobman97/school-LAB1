@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.commentFieldContent {
+  width: 50vw;
+  max-width: 1200px;
+}
+
+.commentFieldContent textarea {
+  max-width: 600px;
+  width: 100%;
+  min-height: 150px;
+  max-height: 300px;
+  resize: vertical;
+}
+
+fieldset {
+  margin-top: 1em;
+  border: 0;
+}
+
+fieldset:not(:last-of-type) {
+  border-bottom: 1px solid #333;
+}
+
+.formBreak {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  list-style: none;
+  margin-bottom: 1em;
+  padding: 2em 1em;
+}
+
+.commentAuthor {
+  text-align: left;
+  text-indent: 2em;
+  font-weight: bold;
+  color: greenyellow;
+}
+
+.commentBody {
+  color: #888;
+  text-align: left;
+  text-indent: 5em;
+  text-transform: capitalize;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
