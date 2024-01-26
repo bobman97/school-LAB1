@@ -64,6 +64,7 @@ fieldset:not(:last-of-type) {
   text-align: left;
   text-indent: 5em;
   text-transform: capitalize;
+  word-break: break-all;
 }
 
 .error {
